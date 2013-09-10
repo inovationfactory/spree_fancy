@@ -23,10 +23,10 @@ $(function(){
       auto: true,
       autoHover: true,
       useCSS: true,
-      controls: false,
+      controls: true,
       pagerSelector: '.slider-pager',
       touchEnabled: false,
-			speed: 1000
+			speed: 2000
     });
 
     $('.carousel').bxSlider({

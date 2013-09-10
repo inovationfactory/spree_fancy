@@ -25,7 +25,8 @@ $(function(){
       useCSS: true,
       controls: false,
       pagerSelector: '.slider-pager',
-      touchEnabled: false
+      touchEnabled: false,
+			speed: 1000
     });
 
     $('.carousel').bxSlider({
